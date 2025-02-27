@@ -2,8 +2,80 @@
 <html>
 <head>
     <title>JPT News Online</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        #sides{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-family: Arial;
+            margin: 30px;
+            margin-top: 1px;
+            padding: 20px;
+            background: #1280cf;
+        }
+        .content{
+            display: flex;
+            flex-direction: row;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        a:visited {
+            text-decoration: none;
+        }
+        a:hover {
+        text-decoration: underline;
+        }
+        a:active {
+        text-decoration: underline;
+        }
+        #part1{
+            margin-left: 30px;
+            padding-right: 20px;
+            width: 60%;
+        }
+        #part2{
+            border-style: ridge;
+            border-color:#00ffff;
+            padding: 15px;
+            width: 30%;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="sides">
+        <a href="onlinenewspaper.html" style="font-size: 20px; color: rgb(245, 119, 119);"><b>JPT News</b></a>
+        <li>Recent</li>
+        <li>World</li>
+        <li>National</li>
+        <li>Politics</li>
+    </div><br>
+    <h1 style="text-align: center;">NEWS</h1>
+    <div class="content">
+        <div id="part1">
+            <img src="news1.png" alt="unavailable" style="height: 400px; width: auto; margin-left: 150px;"><br>
+            <b style="font-size: 40px">Iran's government hits out at crypto again as currency falls</b><br>
+            <p>27th Feb, 2025</p><br>
+            <p>Iran appears poised to impose new levels of control and oversight into crypto amid deteriorating economic conditions. Iranian authorities have again been cracking down on cryptocurrencies and online exchanges as the value of the national currency plummets in an economy in turmoil.</p><br>
+            <p>Last month, the Central Bank of Iran (CBI) suddenly stopped rial payments in all cryptocurrency exchanges, leaving more than 10 million crypto users unable to spend rials on Bitcoin and other global online currencies. The goal was to counter further depreciation of the embattled national currency by stopping it from changing hands for foreign currencies. The crypto market grew significantly last year and leans towards a bullish 2025 as countless young Iranians turn to a growing global market to make money in a largely isolated economy straining under harsh Western sanctions.</p>
+        </div>
+        <div id="part2">
+            <b style="color: red;">LIVE UPDATES</b>
+            <p style="font-weight:bold;">ON-GOING: Pakistan VS Bangladesh - ICC Champions trophy 2025</p>
+            <img src="live1.png" alt="ntg"><br>
+            <ul>
+                <li>Pakistan host Bangladesh in their last Group A match of the ICC Champions Trophy 2025.</li>
+                <li>The Group A match at the Rawalpindi Cricket Stadium gets under way at 2pm (09:00 GMT).</li>
+            </ul>
+            <p style="font-weight:bold;">US cutting foreign aid budgets by more than 90%, Trump administration says</p>
+            <img src="live2.png" alt="ntg"><br>
+            <ul>
+                <li>US State Department says overseas development and aid programmes to be cut by $54B</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
